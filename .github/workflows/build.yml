@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - community
   pull_request:
     branches:
       - main
+      - community
 
 jobs:
   build:
