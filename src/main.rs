@@ -5,7 +5,7 @@ fn main() {
     println!("Guess your answer");
     println!("That was wrong, dipshit");
     let num = rand::thread_rng().gen_range(0..100);
-    print!("The amount of bee's you get: ");
+    print!("The amount of bees you get: ");
     println!("{}", num);
 
 }
