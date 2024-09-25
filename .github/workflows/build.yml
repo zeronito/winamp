@@ -23,7 +23,6 @@ jobs:
         with:
           version: '6.2.0' # Ensures Qt >= 6.2 is installed
           host: linux
-          modules: qtbase, qttools
 
       - name: Install dependencies
         run: |
