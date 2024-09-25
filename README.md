@@ -2,7 +2,7 @@
 
 ## About
 
-Aye, so check it – Winamp? That’s that OG player from back in the day, dropped in '97, and it’s legendary ‘cause it could handle just about any audio you threw at it. Built by Nullsoft, this joint had the streets on lock for years, with millions still rockin' with it. It might’ve taken a lil’ breather, but now they opened up the code to the people, lettin' developers remix it and bring it up to speed for today’s vibe. And you already know, it still whips the llama’s ass, no cap.
+Aight, bet – let’s flip it up with that extra sauce: Yo, Winamp? That’s that day-one, real MVP of music players, came out swingin’ back in ‘97 like a true OG. Had the whole game on lock, no question. Built by Nullsoft, and trust me, it ain’t missin’ a beat – handled any track you threw at it like it was nothin’. Folks was out here heavy rockin’ with it for years, even when it took a lil’ hiatus. But now? They done opened the gates, lettin’ the tech heads remix it, make it fit the new wave, ya feel me? And best believe, it’s still out here kickin’ like a Skibidi Sigma Ohio boss, no cap. Llama’s still gettin’ served, on God.
 
 ## Usage
 
