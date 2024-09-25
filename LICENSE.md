@@ -1,80 +1,91 @@
-# Winamp Collaborative License (WCL) Version 1.0
+# IDGAFPL
+I Don't Give A Fuck Public License
 
-This License governs the use, modification, and distribution of the Winamp software. 
-By using, Modifying, or distributing this software, you agree to the following terms:
+This license is intended to who does not want to care about the license nor whatever the other may do with your software. This license is also a disclaimer but written by the magical word of English: 'fuck'.
 
-## Preamble
-The Winamp Collaborative License is a free, copyleft license for software and other kinds of works. It is designed to ensure that you have the freedom to use, Modify, and study the software, but with certain restrictions on the distribution of modifications to maintain the integrity and collaboration of the project.
+This may contain strong word, some may consider funny, some may not. If you cannot use this license
 
-## TERMS AND CONDITIONS
+I will fork this project and called IDCPL (I Don't Care Public License)
 
-### 1. Definitions
-- "This License" refers to version 1.0 of the Winamp Collaborative License.
-- "The Program" refers to any copyrightable work Licensed under this License.
-- "You" refers to each Licensee, whether an individual or organization.
-- "Modify" means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy.
-- "Covered Work" means either the unmodified Program or a work based on the Program.
-- "Convey" means any kind of propagation that enables other parties to make or receive copies.
+## Full license
+```
+(C) 2016 My2ndAngelic.
 
-### 2. Basic Permissions
-All rights granted under this License are granted for the term of copyright on the Program and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The output from running a Covered work is covered by this License only if its contents constitute a Covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.
+I don't give a fuck about how this will be used. Everything will be allowed, including changing the name, citing wrongly, claiming ownership and destroying the computer. You are allowed to do anything with this as long as:
 
-### 3. Grant of License
-You are granted the right to view, access, and study the source code of the software.
-You are granted the right to Modify the software for private use only. You may make, run, and propagate Covered works that you do not Convey, without conditions, so long as your License otherwise remains in force.
+0. I don't give a fuck.
+1. You agree that you don't give a fuck.
+2. You agree that your use of this will have nothing to fuck with me now and in the future.
+3. You don't fuck me legally/illegally.
 
-### 4. Contributions
-- Contribution to Project: You are encouraged to contribute improvements, enhancements, and bug fixes back to the project. Contributions must be submitted to the official repository and will be reviewed and incorporated at the discretion of the maintainers.
-- Assignment of Rights: By submitting contributions, you agree that all intellectual property rights, including copyright, in your contributions are assigned to Winamp. You hereby grant Winamp a perpetual, worldwide, non-exclusive, royalty-free license to use, copy, modify, and distribute your contributions as part of the software, without any compensation to you.
-- Waiver of Rights: You waive any rights to claim authorship of the contributions or to object to any distortion, mutilation, or other modifications of the contributions.
+As long as you agree with these term, you are free to do fucking anything, whether legal or not legal in your country, because I don't give a fuck. If you don't agree with my term, fuck off.
+```
 
-### 5. Restrictions
-- No Distribution of Modified Versions: You may not distribute modified versions of the software, whether in source or binary form.
-- No Forking: You may not create, maintain, or distribute a forked version of the software.
-- Official Distribution: Only the maintainers of the official repository are allowed to distribute the software and its modifications.
+## Short version (for those who want simpler things)
+```
+(C) 2016 My2ndAngelic.
 
-### 6. No Sublicensing
-Sublicensing is not allowed; section 5 makes it unnecessary.
+I don't give a fuck about you as long as:
 
-### 7. Protecting Users' Legal Rights From Anti-Circumvention Law
+0. I don't give a fuck.
+1. You don't give a fuck
+2. Both of us will give no fuck about each other.
+3. If I do something with this, you agree that you will give no fuck about it.
 
-No Covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.
+That's all, now do what the fuck you want.
+```
 
-### 8. Disclaimer of Warranty
-The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+## Some explanation
+None. Although this may sound like a public domain license, it is not like that.
 
-### 9. Limitation of Liability
-In no event will the authors or copyright holders be liable for any special, incidental, indirect, or consequential damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use the software, even if the authors or copyright holders have been advised of the possibility of such damages.
+### For Original Creator/Developer
+You acknowledge you will have ABSOLUTELY NO RESPONSIBILITY for ANYTHING happen with the user. You acknowledge that other may change the author name, citing their own name and do what the fuck they want, AND THIS IS ALLOWED AS LONG AS YOU USE THIS LICENSE, even though this is your work.
 
-### 10. Termination
-This License and the rights granted hereunder will terminate automatically if you fail to comply with the terms and conditions herein. Upon termination, you must cease all use of the software and destroy all copies, full or partial, of the software.
+Pro: You can do what the fuck you want.
 
-### 11. Protection of Copyright
-The original authors or copyright holders of the software retain all rights, title, and interest in the software. This license does not transfer any ownership rights.
-You must retain all copyright, patent, trademark, and attribution notices in the source code and documentation of the software.
-By submitting contributions, you agree that the contributions are your original work and you grant the project a perpetual, worldwide, non-exclusive, royalty-free license to use, copy, modify, and distribute your contributions as part of the software.
-Any unauthorized use, reproduction, or distribution of the software, or any portion thereof, may result in civil and criminal penalties.
+Con: They (users) can do what the fuck they want, as long as both parties agree to not give a fuck about each other.
 
-### 12. Patent Rights
-Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims to make, use, sell, offer for sale, import, and otherwise run, modify and propagate the contents of its contributor version.
-If you initiate litigation (including a cross-claim or counterclaim) against any party alleging that the Program or a contribution incorporated within the Program constitutes direct or contributory patent infringement, then any patent licenses granted to you under this License for that Program shall terminate as of the date such litigation is filed.
+### For User (meaning 'a man who use the work from original creator, developer')
+This license allows you to do what they want with these stuffs, including copying, reproducing and claiming that this is you work without his consent, even using it commercially is allowed. There is no plagiarism as long as the work is licensed under this IDGAFPL.
 
-### 13. Trademark Usage
-This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for describing the origin of the Program and reproducing the content of the copyright notice.
+However, as long as you agree that you won't do ANYTHING the original developer, this is fine in any case. For example, if you sue the creator because he releases a forked project of his work and it damages you, either financially or non-financially, you simply violate the license.
 
-### 14. Privacy and Data Protection
-You must comply with all applicable privacy and data protection laws in connection with your use of the Program.
-If the Program collects user data, you must provide clear notice and obtain any necessary consents for such collection.
+Pro: You can do what the fuck you want, if you want to claim that you create this, it is also fine. No plagiarism
 
-### 15. Support and Updates
-The Licensor has no obligation to provide support, updates, or maintenance for the Program. Any such support, updates, or maintenance will be provided at the sole discretion of the Licensor.
+Con: If he do something with his project and it damage you financially or non-financially, you will have to leave him alone.
 
-### 16. Compliance 
-You must comply with all applicable laws and regulations in connection with your use of the Program.
+### Violation
+Both parties will have to agree that they will give no fuck about each other. In case one party want to give a fuck, fuck them and tell them to get the fuck out.
 
-### 17. Miscellaneous
-- Governing Law and Jurisdiction: This License shall be governed by and construed in accordance with the laws of Belgium. Any disputes arising out of or in connection with this License shall be subject to the exclusive jurisdiction of the courts located in Brussels, Belgium.
-- Severability: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
-By using, Modifying, or contributing to the software, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
- 
-This custom License aims to maintain the collaborative nature of the project while restricting the distribution of modified versions.
+## Usage
+Why would you ask this? I don't give a fuck. Do what the fuck you want.
+
+## What is this?
+This part is a part of a part of a part of a part of the stupidest thing I have ever made. This may make your life easier by telling the other to fuck off.
+
+## FAQ (fucking answered question)
+- Where is "we"?
+  - I don't give a fuck about that.
+- How can the license protect me?
+  - As long as the user don't fuck you, and as long as they don't give a fuck.
+- Help me, they are fucking around with my project/software/what-the-fuck-that-is.
+  - Simply tell them to fuck off. If you can't, I don't give a fuck.
+- Can I do something illegally with this license?
+  - I don't give a fuck. You can license your software how the fuck you want.
+  - However, the user can claim that this was his software and fuck you legally. In that case, tell the user to fuck off.
+    - First thing, if this software is create by you, you are free to use this license. By claiming that this is his software, he simply agree that he will not give a fuck about you.
+    - Second, when you steal/pirate/copy the software/source code from another big company and claim that this is your software, this also create a loophole in the license itself. I am sure that company will fuck you legally for stealing source code/binary/idea/what-the-fuck-that-is. In that case, please do what the fuck you want to protect yourself. Simply using this license does not mean they won't fuck you.
+    - Finally, this license is not valid in the court of law nor anywhere else. Just because I write this doesn't mean this license is valid.
+- How can I use this license to protect myself from those big guys?
+  - Obviously, you can't.
+  - If they don't give a fuck about that, you are fine.
+- Can I take ownership of this license?
+  - As long as you follow what the fuck is written up there.
+- Can I fuck you because you write that license and affected me/us?
+  - No, get the fuck out of here. No matter who you are and where you from, get the fuck out if you want to fuck me.
+- Are you gay or something?
+  - No comment.
+- Are you asexual?
+    - Stop here. Read the bellow line.
+
+ENJOY. COPY IT, READ IT AND GET THE FUCK OUT OF HERE.
