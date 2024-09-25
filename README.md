@@ -2,9 +2,7 @@
 
 ## About
 
-Winamp is a multimedia player launched in 1997, iconic for its flexibility and wide compatibility with audio formats. Originally developed by Nullsoft, it gained massive popularity with still millions of users. Its development slowed down, but now, its source code was opened to the community, allowing developers to improve and modernize the player to meet current user needs.
-
-It really whips the llama's ass.
+Aye, so check it – Winamp? That’s that OG player from back in the day, dropped in '97, and it’s legendary ‘cause it could handle just about any audio you threw at it. Built by Nullsoft, this joint had the streets on lock for years, with millions still rockin' with it. It might’ve taken a lil’ breather, but now they opened up the code to the people, lettin' developers remix it and bring it up to speed for today’s vibe. And you already know, it still whips the llama’s ass, no cap.
 
 ## Usage
 
