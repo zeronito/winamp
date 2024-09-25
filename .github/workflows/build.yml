@@ -1,0 +1,88 @@
+name: Build and Package Qmmp
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Qt
+        uses: jurplel/install-qt-action@v3
+        with:
+          version: '6.2.0' # Ensures Qt >= 6.2 is installed
+          host: ubuntu
+          modules: qtbase, qttools
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            cmake \
+            libmad0-dev \
+            libvorbis-dev \
+            libogg-dev \
+            libasound2-dev \
+            libtag1-dev \
+            curl \
+            libmpg123-dev \
+            libflac-dev \
+            libjack-jackd2-dev \
+            libsoxr-dev \
+            libxmp-dev \
+            libsndfile1-dev \
+            libwavpack-dev \
+            libpulse-dev \
+            pipewire \
+            ffmpeg \
+            libcdio-dev \
+            libcddb2-dev \
+            libfaad-dev \
+            libopus-dev \
+            libopusfile-dev \
+            libwildmidi-dev \
+            libsidplayfp-dev \
+            libbs2b-dev \
+            libprojectm-dev \
+            libenca-dev \
+            libarchive-dev \
+            libshout3-dev \
+            mplayer \
+            libx11-dev \
+            libxcb1-dev \
+            xorgproto \
+            librcd-dev \
+            unzip \
+            bzip2 \
+            gzip \
+            tar
+
+      - name: Configure project with CMake
+        run: cmake ./ -DCMAKE_INSTALL_PREFIX=${{ github.workspace }}/install
+
+      - name: Build project
+        run: make -j$(nproc)
+
+      - name: Install project
+        run: make install
+
+      - name: Package installation files
+        run: |
+          cd ${{ github.workspace }}/install
+          tar -czf ../build.tar.gz .
+          
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build.tar.gz
+          path: build.tar.gz
