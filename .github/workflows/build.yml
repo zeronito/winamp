@@ -61,7 +61,7 @@ jobs:
             mplayer \
             libx11-dev \
             libxcb1-dev \
-            xorgproto \
+            x11proto-* \
             librcd-dev \
             unzip \
             bzip2 \
