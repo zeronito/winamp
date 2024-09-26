@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dxtemlb25bbda"
+path.s3tc="res://.godot/imported/funny_1B36E134.jpg-28284136688bba0ae91e6732a51b91ef.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "dd22de5a8f078bed6cbc3669bfa0133d"
+}
+
+[deps]
+
+source_file="res://funny_1B36E134.jpg"
+dest_files=["res://.godot/imported/funny_1B36E134.jpg-28284136688bba0ae91e6732a51b91ef.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

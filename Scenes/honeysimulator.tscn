@@ -1,0 +1,64 @@
+[gd_scene load_steps=11 format=3 uid="uid://brc1oukhyuxbd"]
+
+[ext_resource type="Script" path="res://Scripts/Spawner.gd" id="1_i4sjn"]
+[ext_resource type="Script" path="res://Scripts/CameraSpin.gd" id="2_j7rh7"]
+[ext_resource type="AudioStream" uid="uid://0rd4abbxsa26" path="res://getmepower.ogg" id="3_lwelx"]
+[ext_resource type="AudioStream" uid="uid://cqdur3d2ld8xt" path="res://untitled.ogg" id="4_3ywwd"]
+[ext_resource type="Script" path="res://Scripts/AudioStreamPlayer2.gd" id="5_0mluk"]
+[ext_resource type="Script" path="res://Scripts/Label3D.gd" id="6_m6son"]
+[ext_resource type="Texture2D" uid="uid://d2ukjf4r3tgfn" path="res://Honey_the_Cat.webp" id="7_kv426"]
+[ext_resource type="Script" path="res://Scripts/Sprite3D.gd" id="8_7q47w"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uol8k"]
+size = Vector3(1026.01, 0.001, 1022.75)
+
+[sub_resource type="Environment" id="Environment_ypvu1"]
+background_mode = 2
+ambient_light_source = 3
+ambient_light_color = Color(0.830335, 0.830335, 0.830335, 1)
+volumetric_fog_enabled = true
+
+[node name="HoneySim2028" type="Node3D"]
+
+[node name="Spawner" type="Node" parent="."]
+script = ExtResource("1_i4sjn")
+
+[node name="MeshInstance3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.87195, -0.4995, -0.846191)
+shape = SubResource("BoxShape3D_uol8k")
+
+[node name="CameraSpin" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.0610843)
+script = ExtResource("2_j7rh7")
+
+[node name="Camera" type="Camera3D" parent="CameraSpin"]
+transform = Transform3D(1, 0, 0, 0, 0.90499, 0.425432, 0, -0.425432, 0.90499, 0, 5.5466, 12.6638)
+current = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer3D" parent="CameraSpin/Camera"]
+transform = Transform3D(1, 0, 0, 0, 0.90499, -0.425432, 0, 0.425432, 0.90499, 0.0702381, 0.272088, -2.33337)
+stream = ExtResource("3_lwelx")
+volume_db = -16.761
+autoplay = true
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer3D" parent="CameraSpin/Camera"]
+transform = Transform3D(1, 0, 0, 0, 0.90499, -0.425432, 0, 0.425432, 0.90499, 0.0702381, 0.272088, -2.33337)
+stream = ExtResource("4_3ywwd")
+volume_db = -16.761
+script = ExtResource("5_0mluk")
+
+[node name="Label3D" type="Label3D" parent="CameraSpin/Camera" node_paths=PackedStringArray("spawner")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.95494, -0.295487, -4.13198)
+text = "TEST"
+script = ExtResource("6_m6son")
+spawner = NodePath("../../../Spawner")
+
+[node name="Sprite3D" type="Sprite3D" parent="CameraSpin/Camera"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0673141, -6.81455)
+texture = ExtResource("7_kv426")
+script = ExtResource("8_7q47w")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_ypvu1")
