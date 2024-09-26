@@ -1,79 +1,76 @@
-# Winamp Collaborative License (WCL) Version 1.0.1
+# Winamp Collaborative License (WCL) Version 2.0
 
 This License governs the use, modification, and distribution of the Winamp software. 
 By using, Modifying, or distributing this software, you agree to the following terms:
 
-## Preamble
-The Winamp Collaborative License is a free, copyleft license for software and other kinds of works. It is designed to ensure that you have the freedom to use, Modify, and study the software, but with certain restrictions on the distribution of modifications to maintain the integrity and collaboration of the project.
+**Preamble:**
 
-## TERMS AND CONDITIONS
+The "Winamp Collaborative License" (WCL) is designed to provide the appearance of open participation while ensuring strict control over the use, modification, and distribution of the software. Though the code is available for viewing, it remains under tight restrictions, and all contributions are subject to the full ownership of the original licensor. The following terms and conditions emphasize non-negotiable exclusivity while maintaining the outward appearance of freedom and collaboration.
 
-### 1. Definitions
-- "This License" refers to version 1.0.1 of the Winamp Collaborative License.
-- "The Program" refers to any copyrightable work Licensed under this License.
-- "You" refers to each Licensee, whether an individual or organization.
-- "Modify" means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy.
-- "Covered Work" means either the unmodified Program or a work based on the Program.
-- "Convey" means any kind of propagation that enables other parties to make or receive copies.
+---
 
-### 2. Basic Permissions
-All rights granted under this License are granted for the term of copyright on the Program and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The output from running a Covered work is covered by this License only if its contents constitute a Covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.
+**Section 1: Grant of Limited Non-Exclusive Non-Transferable License**
 
-### 3. Grant of License
-You are granted the right to view, access, and study the source code of the software.
-You are granted the right to Modify the software for private use only. You may make, run, and propagate Covered works that you do not Convey, without conditions, so long as your License otherwise remains in force.
+You are granted a non-exclusive, non-transferable license to view the source code, but only for personal observation. You may not copy, modify, compile, or distribute the code in any form. Your "use" is limited to passive admiration, as if you were holding a priceless artifact behind glass.
 
-### 4. Contributions
-- Contribution to Project: You are encouraged to contribute improvements, enhancements, and bug fixes back to the project. Contributions must be submitted to the official repository and will be reviewed and incorporated at the discretion of the maintainers.
-- Assignment of Rights: By submitting contributions, you agree that all intellectual property rights, including copyright, in your contributions are assigned to Winamp. You hereby grant Winamp a perpetual, worldwide, non-exclusive, royalty-free license to use, copy, modify, and distribute your contributions as part of the software, without any compensation to you.
-- Waiver of Rights: You waive any rights to claim authorship of the contributions or to object to any distortion, mutilation, or other modifications of the contributions.
+**Section 2: Community Contributions**
 
-### 5. Restrictions
-- No Distribution of Modified Versions: You may not distribute modified versions of the software, whether in source or binary form.
-- Official Distribution: Only the maintainers of the official repository are allowed to distribute the software and its modifications.
+Contributions are welcomed, provided you immediately and irrevocably assign all rights, including patents, to the original licensor. You waive any rights to your contribution, which becomes the sole property of the licensor. Whether or not credit is given for your contribution is at the licensor’s discretion. Your role is to give freely, not to receive recognition.
 
-### 6. No Sublicensing
-Sublicensing is not allowed; section 5 makes it unnecessary.
+**Section 3: Forking is Strictly Prohibited**
 
-### 7. Protecting Users' Legal Rights From Anti-Circumvention Law
+Forking, cloning, or creating derivative works of the source code is strictly forbidden. You may gaze at the code, but any attempt to duplicate it—even in a hypothetical alternate reality—will be treated as a violation of this license. The WCL License takes exclusivity seriously.
 
-No Covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.
+**Section 4: Distribution Without Distribution**
 
-### 8. Disclaimer of Warranty
-The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+Though the software is available to you in source form, any attempt to distribute it is a breach of this license. Sharing it in any form—whether digitally, physically, or through casual conversation—will result in immediate termination of your rights. The WCL License rejects sharing in all forms.
 
-### 9. Limitation of Liability
-In no event will the authors or copyright holders be liable for any special, incidental, indirect, or consequential damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or any other pecuniary loss) arising out of the use of or inability to use the software, even if the authors or copyright holders have been advised of the possibility of such damages.
+**Section 5: Personal Use Only**
 
-### 10. Termination
-This License and the rights granted hereunder will terminate automatically if you fail to comply with the terms and conditions herein. Upon termination, you must cease all use of the software and destroy all copies, full or partial, of the software.
+The software is for personal, non-productive use only. You may not use it for commercial, public, educational, or any other form of productive engagement. The code is provided for quiet contemplation only, and all other uses are expressly prohibited.
 
-### 11. Protection of Copyright
-The original authors or copyright holders of the software retain all rights, title, and interest in the software. This license does not transfer any ownership rights.
-You must retain all copyright, patent, trademark, and attribution notices in the source code and documentation of the software.
-By submitting contributions, you agree that the contributions are your original work and you grant the project a perpetual, worldwide, non-exclusive, royalty-free license to use, copy, modify, and distribute your contributions as part of the software.
-Any unauthorized use, reproduction, or distribution of the software, or any portion thereof, may result in civil and criminal penalties.
+**Section 6: Contributions for the Licensor's Exclusive Benefit**
 
-### 12. Patent Rights
-Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims to make, use, sell, offer for sale, import, and otherwise run, modify and propagate the contents of its contributor version.
-If you initiate litigation (including a cross-claim or counterclaim) against any party alleging that the Program or a contribution incorporated within the Program constitutes direct or contributory patent infringement, then any patent licenses granted to you under this License for that Program shall terminate as of the date such litigation is filed.
+Any contributions you make will be used solely at the licensor’s discretion. You may not use or reclaim your own contributions in other projects, as they immediately become the licensor's property. The WCL License ensures that contributions benefit the original licensor exclusively.
 
-### 13. Trademark Usage
-This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for describing the origin of the Program and reproducing the content of the copyright notice.
+**Section 7: No Reverse Engineering or Decompilation**
 
-### 14. Privacy and Data Protection
-You must comply with all applicable privacy and data protection laws in connection with your use of the Program.
-If the Program collects user data, you must provide clear notice and obtain any necessary consents for such collection.
+You may not reverse-engineer, decompile, disassemble, or attempt to understand the internal workings of the software. Any effort to reconstruct or replicate the software, even for educational purposes, is strictly prohibited under the WCL License.
 
-### 15. Support and Updates
-The Licensor has no obligation to provide support, updates, or maintenance for the Program. Any such support, updates, or maintenance will be provided at the sole discretion of the Licensor.
+**Section 8: Non-Use of Trademarks and Logos**
 
-### 16. Compliance 
-You must comply with all applicable laws and regulations in connection with your use of the Program.
+All trademarks, logos, and branding associated with this software are the exclusive property of the licensor. You may not use or reference them in any context without written permission. The WCL License grants no freedom in this regard.
 
-### 17. Miscellaneous
-- Governing Law and Jurisdiction: This License shall be governed by and construed in accordance with the laws of Belgium. Any disputes arising out of or in connection with this License shall be subject to the exclusive jurisdiction of the courts located in Brussels, Belgium.
-- Severability: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
-By using, Modifying, or contributing to the software, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
- 
-This custom License aims to maintain the collaborative nature of the project while restricting the distribution of modified versions.
+**Section 9: Waiver of Rights (Known and Unknown)**
+
+By using or contributing to this software, you irrevocably waive all rights, claims, and legal entitlements to the software, including intellectual property rights and potential future claims. The licensor retains all rights, while you retain none.
+
+**Section 10: Termination of Rights**
+
+Your rights under this license terminate immediately upon any breach of its terms, including unauthorized copying, modifying, or distributing the software. Upon termination, you must delete all copies of the software and cease all further use. The WCL License does not permit second chances.
+
+---
+
+**Section 11: Prohibition on Automated Tools**
+
+The use of automated tools, scripts, or bots to interact with the software or its repository is strictly forbidden. Any attempt to automate interaction with the codebase, even for benign purposes, will result in immediate revocation of all rights. The WCL License requires that you engage with the software personally, without the assistance of machines.
+
+**Section 12: Restrictions on Code Fragments and Snippets**
+
+No part of the software—whether a complete file or a single line—may be copied, shared, or used elsewhere. This includes code snippets shared in tutorials, blog posts, or casual conversations. The WCL License prohibits even the smallest fragment of the code from leaving its carefully controlled environment.
+
+**Section 13: No Public Performance or Display**
+
+You may not display or demonstrate this software publicly in any form, including presentations, videos, or live demonstrations. Any public exhibition of the software or its functionality, even with the best of intentions, is a violation of the WCL License. If you wish to discuss the software, you may do so only in abstract, non-specific terms.
+
+---
+
+**Section 14: Applying the WCL License to Your Own Codebase**
+
+To apply the WCL License to your own project, include the following notice at the top of each file:
+
+```plaintext
+This code is licensed under the "Winamp Collaborative License" (WCL). By viewing or interacting with this file, you agree to the terms of the WCL License, which prohibits copying, modifying, forking, compiling, or distributing this code. All contributions are irrevocably assigned to the original licensor, with no rights retained by the contributor. For full terms, see https://github.com/WinampDesktop/winamp/blob/community/LICENSE.md.
+```
+
+This ensures that your code remains governed by the principles of limited participation, strict control, and exclusive ownership. By adopting the WCL License, you secure a license that promotes engagement while safeguarding your rights to the fullest extent.
