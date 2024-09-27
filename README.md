@@ -30,6 +30,10 @@ Run `unpack_libvpx_v1.8.2_msvc16.cmd` to unpack.
 We take libmpg123 from [https://www.mpg123.de/download.shtml](https://www.mpg123.de/download.shtml), modify it, and pack it to archive.
 Run `unpack_libmpg123.cmd` to unpack and process the DLLs.
 
+#### MilkDrop2
+
+We take MilkDrop2 from [https://sourceforge.net/p/milkdrop2/code/ci/master/tree/src/vis_milk2/](https://sourceforge.net/p/milkdrop2/code/ci/master/tree/src/vis_milk2/), copy it in /Src/Plugins/Visualization/vis_milk2/
+
 #### OpenSSL
 
 You need to use `openssl-1.0.1u`. For that, you need to build a static version of these libs.

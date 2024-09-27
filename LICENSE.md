@@ -1,15 +1,15 @@
-# Winamp Collaborative License (WCL) Version 1.0.1
+# Winamp Collaborative License (WCL) Version 1.1.0
 
-This License governs the use, modification, and distribution of the Winamp software. 
+This License governs the use, modification, and distribution of the Winamp software.
 By using, Modifying, or distributing this software, you agree to the following terms:
 
 ## Preamble
-The Winamp Collaborative License is a free, copyleft license for software and other kinds of works. It is designed to ensure that you have the freedom to use, Modify, and study the software, but with certain restrictions on the distribution of modifications to maintain the integrity and collaboration of the project.
+The Winamp Collaborative License is a [Source-available](https://en.wikipedia.org/wiki/Source_available) license for software and other kinds of works. It is designed to ensure that you have the freedom to use, Modify, and study the software, but with certain restrictions on the distribution of modifications to maintain the integrity and collaboration of the project.
 
 ## TERMS AND CONDITIONS
 
 ### 1. Definitions
-- "This License" refers to version 1.0.1 of the Winamp Collaborative License.
+- "This License" refers to version 1.1.0 of the Winamp Collaborative License.
 - "The Program" refers to any copyrightable work Licensed under this License.
 - "You" refers to each Licensee, whether an individual or organization.
 - "Modify" means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy.
@@ -29,7 +29,7 @@ You are granted the right to Modify the software for private use only. You may m
 - Waiver of Rights: You waive any rights to claim authorship of the contributions or to object to any distortion, mutilation, or other modifications of the contributions.
 
 ### 5. Restrictions
-- No Distribution of Modified Versions: You may not distribute modified versions of the software, whether in source or binary form.
+- No Distribution of Modified Versions: You may not distribute modified versions of the software in binary form.
 - Official Distribution: Only the maintainers of the official repository are allowed to distribute the software and its modifications.
 
 ### 6. No Sublicensing
@@ -68,12 +68,12 @@ If the Program collects user data, you must provide clear notice and obtain any 
 ### 15. Support and Updates
 The Licensor has no obligation to provide support, updates, or maintenance for the Program. Any such support, updates, or maintenance will be provided at the sole discretion of the Licensor.
 
-### 16. Compliance 
+### 16. Compliance
 You must comply with all applicable laws and regulations in connection with your use of the Program.
 
 ### 17. Miscellaneous
 - Governing Law and Jurisdiction: This License shall be governed by and construed in accordance with the laws of Belgium. Any disputes arising out of or in connection with this License shall be subject to the exclusive jurisdiction of the courts located in Brussels, Belgium.
 - Severability: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
 By using, Modifying, or contributing to the software, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
- 
+
 This custom License aims to maintain the collaborative nature of the project while restricting the distribution of modified versions.
