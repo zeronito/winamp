@@ -1,0 +1,109 @@
+[gd_scene load_steps=23 format=3 uid="uid://bu0y2osd6w0v4"]
+
+[ext_resource type="Script" path="res://Scripts/honey_the_cat.gd" id="1_6ejpt"]
+[ext_resource type="PackedScene" uid="uid://isqe8c57mq8d" path="res://Scenes/honey.tscn" id="2_75hlo"]
+[ext_resource type="AudioStream" uid="uid://cfgjpqrcyrimq" path="res://explotano.ogg" id="3_xyytk"]
+[ext_resource type="Texture2D" uid="uid://dwmvkiyktnvft" path="res://explotano/explotano08.png" id="4_06pav"]
+[ext_resource type="Texture2D" uid="uid://caab5im6xbu1m" path="res://explotano/explotano09.png" id="5_574aw"]
+[ext_resource type="Texture2D" uid="uid://dxw2gjnjsn3kk" path="res://explotano/explotano10.png" id="6_qjskt"]
+[ext_resource type="Texture2D" uid="uid://cdjgj5ub4n8ta" path="res://explotano/explotano11.png" id="7_fh4vh"]
+[ext_resource type="Texture2D" uid="uid://bpjkc4ybr40g8" path="res://explotano/explotano12.png" id="8_g7qco"]
+[ext_resource type="Texture2D" uid="uid://c5f3cdl1y14pg" path="res://explotano/explotano13.png" id="9_p8d1g"]
+[ext_resource type="Texture2D" uid="uid://cwstr4tnqscph" path="res://explotano/explotano14.png" id="10_gdlem"]
+[ext_resource type="Texture2D" uid="uid://8p1kix6ddhks" path="res://explotano/explotano15.png" id="11_7snep"]
+[ext_resource type="Texture2D" uid="uid://bngkboxeb3n3g" path="res://explotano/explotano16.png" id="12_bgdym"]
+[ext_resource type="Texture2D" uid="uid://6xtcwqktfams" path="res://explotano/explotano00.png" id="13_grket"]
+[ext_resource type="Texture2D" uid="uid://x4ugymkgdojg" path="res://explotano/explotano01.png" id="14_hrtmt"]
+[ext_resource type="Texture2D" uid="uid://vq8q0bi7r8gp" path="res://explotano/explotano02.png" id="15_ptw5w"]
+[ext_resource type="Texture2D" uid="uid://btyr3ah81udoq" path="res://explotano/explotano03.png" id="16_wjgns"]
+[ext_resource type="Texture2D" uid="uid://duwywld4vp4bi" path="res://explotano/explotano04.png" id="17_tx5gm"]
+[ext_resource type="Texture2D" uid="uid://cgors0gnmli82" path="res://explotano/explotano05.png" id="18_te3ig"]
+[ext_resource type="Texture2D" uid="uid://bil4r8s58dipx" path="res://explotano/explotano06.png" id="19_m8j2t"]
+[ext_resource type="Texture2D" uid="uid://bj5cwia2q07ly" path="res://explotano/explotano07.png" id="20_i54kn"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4p4do"]
+height = 2.81789
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tv260"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_06pav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_574aw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qjskt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fh4vh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_g7qco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_p8d1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_gdlem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_7snep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_bgdym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_grket")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hrtmt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ptw5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_wjgns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_tx5gm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_te3ig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_m8j2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_i54kn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 16.0
+}]
+
+[node name="HoneyTheCat" type="RigidBody3D" node_paths=PackedStringArray("catexplotano", "catexplotano_sound", "gato")]
+script = ExtResource("1_6ejpt")
+catexplotano = NodePath("explotanoanimated")
+catexplotano_sound = NodePath("AudioStreamPlayer3D")
+gato = NodePath("funny")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_4p4do")
+
+[node name="funny" parent="." instance=ExtResource("2_75hlo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.36709, -1.5)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("3_xyytk")
+volume_db = 6.096
+max_db = 6.0
+
+[node name="explotanoanimated" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+billboard = 1
+sprite_frames = SubResource("SpriteFrames_tv260")
+frame = 16
+
+[connection signal="finished" from="AudioStreamPlayer3D" to="." method="_on_audio_stream_player_3d_finished"]

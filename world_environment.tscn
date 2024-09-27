@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cajekgyj5d0c2"]
+
+[sub_resource type="Environment" id="Environment_ypvu1"]
+background_mode = 2
+ambient_light_source = 3
+ambient_light_color = Color(0.830335, 0.830335, 0.830335, 1)
+volumetric_fog_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment"]
+environment = SubResource("Environment_ypvu1")

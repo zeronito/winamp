@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://bo4vq0lhq32vj"]
+
+[ext_resource type="Script" path="res://Scripts/titlescreen.gd" id="1_64lmc"]
+[ext_resource type="Script" path="res://Scripts/TitleScreenLabel.gd" id="2_ba3n1"]
+[ext_resource type="AudioStream" uid="uid://c6266rv72k4qy" path="res://honeysong3.mp3" id="3_usv2o"]
+[ext_resource type="Texture2D" uid="uid://k71dipbsohy2" path="res://honeysong3.jpg" id="4_6ntms"]
+
+[node name="TitleScreen" type="Node2D" node_paths=PackedStringArray("honeysong3", "honeysongjpg")]
+script = ExtResource("1_64lmc")
+honeysong3 = NodePath("AudioStreamPlayer")
+honeysongjpg = NodePath("Sprite2D")
+
+[node name="Label" type="Label" parent="." node_paths=PackedStringArray("title_screen")]
+offset_left = -576.0
+offset_top = -328.0
+offset_right = 576.0
+offset_bottom = 320.0
+text = "Honey Simulator 2028: Special Edition
+
+Press 1 for Normal Mode - Classic Gameplay!
+Press 2 for FPS Mode - You lose when your FPS drops below 6!
+Press 3 for Cat Explotano Mode - Don't let more than 500 Honeys spawn on screen at once!"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("2_ba3n1")
+title_screen = NodePath("..")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_usv2o")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(456, 128)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("4_6ntms")

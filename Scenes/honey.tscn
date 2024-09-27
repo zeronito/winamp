@@ -1,0 +1,104 @@
+[gd_scene load_steps=2 format=3 uid="uid://isqe8c57mq8d"]
+
+[ext_resource type="PackedScene" uid="uid://dp5gayu55wqsk" path="res://funny.glb" id="1_3jb71"]
+
+[node name="funny" instance=ExtResource("1_3jb71")]
+
+[node name="RFist" parent="." index="9"]
+visible = false
+
+[node name="LFist" parent="." index="17"]
+visible = false
+
+[node name="PainFace" parent="." index="22"]
+visible = false
+
+[node name="DefaultFace2" parent="." index="23"]
+visible = false
+
+[node name="StareFace" parent="." index="24"]
+visible = false
+
+[node name="SleepFace" parent="." index="25"]
+visible = false
+
+[node name="DizzyFace" parent="." index="26"]
+visible = false
+
+[node name="HappyFace" parent="." index="27"]
+visible = false
+
+[node name="HeartFace" parent="." index="28"]
+visible = false
+
+[node name="EyelidF1" parent="." index="29"]
+visible = false
+
+[node name="EyelidF10" parent="." index="30"]
+visible = false
+
+[node name="EyelidF2" parent="." index="31"]
+visible = false
+
+[node name="EyelidF3" parent="." index="32"]
+visible = false
+
+[node name="EyelidF4" parent="." index="33"]
+visible = false
+
+[node name="EyelidF5" parent="." index="34"]
+visible = false
+
+[node name="EyelidF6" parent="." index="35"]
+visible = false
+
+[node name="EyelidF7" parent="." index="36"]
+visible = false
+
+[node name="EyelidF8" parent="." index="37"]
+visible = false
+
+[node name="EyelidF9" parent="." index="38"]
+visible = false
+
+[node name="LHandBomb" parent="." index="39"]
+visible = false
+
+[node name="LHandSpread" parent="." index="40"]
+visible = false
+
+[node name="LHandGrab" parent="." index="42"]
+visible = false
+
+[node name="LHandHammer" parent="." index="43"]
+visible = false
+
+[node name="LHandGunCork" parent="." index="44"]
+visible = false
+
+[node name="LHandGun" parent="." index="45"]
+visible = false
+
+[node name="RHandHammer" parent="." index="46"]
+visible = false
+
+[node name="RHandSpread" parent="." index="47"]
+visible = false
+
+[node name="RHandGrab" parent="." index="49"]
+visible = false
+
+[node name="RHandBomb" parent="." index="50"]
+visible = false
+
+[node name="RHandGunCork" parent="." index="51"]
+visible = false
+
+[node name="RHandGun" parent="." index="52"]
+visible = false
+
+[node name="LEyeAngry" parent="." index="53"]
+visible = false
+
+[node name="REyeAngry" parent="." index="54"]
+visible = false
